@@ -1,0 +1,63 @@
+body {
+  background-color: #eceff1;
+}
+
+.navbar {
+  border-bottom: .1px solid #ccc;
+}
+
+.title {
+  font-size:2rem;
+}
+
+.title-header {
+  padding: 2.5rem 0 2rem 0;
+  color: #444f5a;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container-fluid > a {
+  margin-bottom: 1.8rem;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+.titulo {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.desc {
+  color: #444f5a;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* form respostas */
+.box-resp {
+  max-width: 95%;
+  margin: 0 0 1rem auto;
+}
+.box-resp > textarea {
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .card-header > h3 {
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .title-header {
+    font-size: 2rem;
+  }
+}
